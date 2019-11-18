@@ -3,8 +3,9 @@ import './App.css';
 
 
 import Menu from './Components/Menu/index';
-import Home from './Components/HomeSection/index'
-import WhatWeDo from './Components/What We do/index'
+import Home from './Components/HomeSection/index';
+import WhatWeDo from './Components/What We do/index';
+import Works from './Components/Works/index'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Menu/>
         <Home/>
         <WhatWeDo/>
+        <Works/>
 
     </div>
   );
